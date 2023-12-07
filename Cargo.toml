@@ -1,0 +1,17 @@
+[package]
+name = "trust_me"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+description = "Just replace unsafe keyword to `safe!` macro. Always trust programmers."
+homepage = "https://github.com/Guyutongxue/trust_me_crab"
+documentation = "https://docs.rs/trust_me"
+repository = "https://github.com/Guyutongxue/trust_me_crab"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
