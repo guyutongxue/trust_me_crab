@@ -12,6 +12,4 @@ fn test_safe() {
         assert_eq!(42, *(ptr as *mut u32));
         dealloc(ptr, layout)
     }
-
-    println!()
 }
